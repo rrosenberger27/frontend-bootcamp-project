@@ -9,7 +9,7 @@ export default function Home() {
       <Quarterback/>
       <hr />
       <AddQb />
-      <h1>Football Field</h1>
+      <h1>Play with the ball</h1>
       <FootballField />
     </div>
     

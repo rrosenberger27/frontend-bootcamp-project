@@ -19,7 +19,7 @@ function AddQb() {
         })
         {window.location.reload()}
     }
-    // NOTE: this is not the best way to collect data, but is good for demo purposes!
+    
     const [fullName, setFullName] = useState("")
     const [receivers, setReceivers] = useState([])
 
@@ -46,7 +46,6 @@ function AddQb() {
                     value={receiver}
                     placeholder="No One"
                     onChange={(event) => setReceivers(receivers.map((c, j) => {
-                        // TERNARY STATEMENT: return two different things based on a conditional
                         return i === j ? event.target.value : c 
                     })
                 )}
